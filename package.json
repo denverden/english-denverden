@@ -2,6 +2,10 @@
   "name": "english-denverden",
   "version": "1.0.0",
   "license": "MIT",
+  "engines": {
+    "npm": "6.x",
+    "node": "14.x"
+  },
   "scripts": {
     "start": "nodemon --exec babel-node src/server/index.js"
   },
