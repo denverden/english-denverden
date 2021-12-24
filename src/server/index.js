@@ -1,4 +1,4 @@
-import 'dotenv/config';
+/* import 'dotenv/config';
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
@@ -29,3 +29,5 @@ app.use((req, res, next) => {
 });
 
 app.listen(process.env.PORT, () => console.log(`Listening on port ${process.env.PORT || 3030}!`));
+*/
+console.log("OK");
