@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "babel-node src/server/index.js",
-    "dev": "nodemon --exec npm start"
+    "dev": "npm start"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
