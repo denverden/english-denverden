@@ -4,7 +4,8 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "start-server": "nodemon src/server/index.js"
+    "start": "babel-node src/server/index.js",
+    "dev": "nodemon --exec npm start"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
