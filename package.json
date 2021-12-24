@@ -4,11 +4,7 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "start-server": "nodemon --exec babel-node src/server/index.js",
-    "build": "webpack",
-    "lint": "eslint --debug src/",
-    "lint:write": "eslint --debug src/ --fix",
-    "prettier": "prettier --write src/**/*.js"
+    "start-server": "nodemon --exec babel-node src/server/index.js"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
