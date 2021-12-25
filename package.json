@@ -1,7 +1,6 @@
 {
   "name": "english-denverden",
   "version": "1.0.0",
-  "license": "MIT",
   "engines": {
     "npm": "6.x",
     "node": "14.x"
@@ -9,7 +8,7 @@
   "scripts": {
     "start": "nodemon --exec babel-node src/server/index.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "^7.4.5",
     "@babel/node": "^7.10.5",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
@@ -17,9 +16,7 @@
     "@babel/preset-env": "^7.4.5",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.6",
-    "nodemon": "^2.0.4"
-  },
-  "dependencies": {
+    "nodemon": "^2.0.4",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
